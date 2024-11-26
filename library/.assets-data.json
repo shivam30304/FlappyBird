@@ -209,6 +209,7 @@
         "c355d834-2aef-4c80-9ee6-1e0902d2137f",
         "fdaa91a9-7ffb-491d-8073-5ab775507318",
         "cd286abd-598c-43f7-b9e1-94f2629371ac",
+        "1c3ef9a5-fbf5-4f73-b385-88cf9d2d2ef0",
         "3a4126c8-aa33-4be8-9278-850597539b41",
         "20fe83ba-e546-4d23-a695-8c00d52e4e85",
         "5f7c2217-0c05-4e13-a645-4c63e256b27b"
@@ -283,5 +284,65 @@
     "value": {
       "depends": []
     }
+  },
+  "56ec7d10-573d-4192-8f21-b43dd91caf28": {
+    "url": "db://assets/Game Res/pause_resume",
+    "value": {}
+  },
+  "45ec870a-4d08-4cb9-9877-3a0345efd74f": {
+    "url": "db://assets/Game Res/pause_resume/pause.png",
+    "value": {}
+  },
+  "45ec870a-4d08-4cb9-9877-3a0345efd74f@6c48a": {
+    "url": "db://assets/Game Res/pause_resume/pause.png@6c48a",
+    "value": {
+      "depends": [
+        "45ec870a-4d08-4cb9-9877-3a0345efd74f"
+      ]
+    }
+  },
+  "91bf03f1-2607-4c3b-9655-b7f5020e2de3": {
+    "url": "db://assets/Game Res/pause_resume/resume.png",
+    "value": {}
+  },
+  "91bf03f1-2607-4c3b-9655-b7f5020e2de3@6c48a": {
+    "url": "db://assets/Game Res/pause_resume/resume.png@6c48a",
+    "value": {
+      "depends": [
+        "91bf03f1-2607-4c3b-9655-b7f5020e2de3"
+      ]
+    }
+  },
+  "f8871538-b02a-4b63-a072-6d062de27fb7": {
+    "url": "db://assets/Game Res/pause_resume/play-buttton.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f8871538-b02a-4b63-a072-6d062de27fb7@6c48a": {
+    "url": "db://assets/Game Res/pause_resume/play-buttton.png@6c48a",
+    "value": {
+      "depends": [
+        "f8871538-b02a-4b63-a072-6d062de27fb7"
+      ]
+    }
+  },
+  "f888c810-a4e5-42c1-8cc9-eac298524d4c": {
+    "url": "db://assets/Game Res/pause_resume/pause.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "f888c810-a4e5-42c1-8cc9-eac298524d4c@6c48a": {
+    "url": "db://assets/Game Res/pause_resume/pause.png@6c48a",
+    "value": {
+      "depends": [
+        "f888c810-a4e5-42c1-8cc9-eac298524d4c"
+      ]
+    }
+  },
+  "1c3ef9a5-fbf5-4f73-b385-88cf9d2d2ef0": {
+    "url": "db://assets/Scripts/StopResume.ts",
+    "value": {}
   }
 }

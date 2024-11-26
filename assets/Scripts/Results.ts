@@ -1,45 +1,51 @@
-import { _decorator, Component, Label, Node } from 'cc';
+import { _decorator, Component, find, Label, Node } from 'cc';
 const { ccclass, property } = _decorator;
 import { Pipes } from './Pipes';
+import { GameCtrl } from './GameCtrl';
 
 @ccclass('Results')
 export class Results extends Component {
     @property({
-        type:Label
+        type: Label
     })
-    public scoreLabel : Label;
+    public scoreLabel: Label;
 
     @property({
-        type:Label
+        type: Label
     })
-    public highScore : Label;
+    public highScore: Label;
 
     @property({
-        type:Label
+        type: Label
     })
-    public resultEnd : Label;
+    public resultEnd: Label;
 
-    maxScore : number = 0;
-    currentScore : number;
-    public lastScore : number = 0;
+    maxScore: number = 0;
+    currentScore: number;
 
-    updateScore(num : number) {
+    public game: GameCtrl;
+
+    protected onLoad(): void {
+        this.game = find('GameCtrl').getComponent('GameCtrl') as GameCtrl;
+    }
+
+    updateScore(num: number) {
         this.currentScore = num;
         this.scoreLabel.string = ('' + this.currentScore)
     }
 
+    checkScore() {
+        return this.currentScore / 5;
+    }
+
     resetScore() {
         this.updateScore(0);
-        this.lastScore = 0;
         this.hideResults();
     }
 
     addScore() {
         this.updateScore(this.currentScore + 1);
-        if (this.currentScore - this.lastScore >= 10) {
-            this.lastScore = this.currentScore;
-            
-        }
+        this.game.changeSpeed(this.checkScore());
     }
 
     showResults() {

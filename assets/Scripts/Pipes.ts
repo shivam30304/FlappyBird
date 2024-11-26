@@ -51,7 +51,7 @@ export class Pipes extends Component {
     }
 
     update(deltaTime:number) {
-        this.tempSpeed = this.pipeSpeed * deltaTime;
+        this.tempSpeed = this.game.pipeSpeed * deltaTime;
 
         this.tempStartLocationDown = this.bottomPipe.position;
         this.tempStartLocationUp = this.topPipe.position;

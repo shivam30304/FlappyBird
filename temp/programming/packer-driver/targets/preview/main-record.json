@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 7087.895917000249,
+      "mTimestamp": 6584.749624997377,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -409,7 +409,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3778982.912792,
+      "mTimestamp": 1974881.5775419995,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -427,7 +427,7 @@
           }
         },
         {
-          "value": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Bird.ts",
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Bird.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -436,12 +436,12 @@
             },
             "end": {
               "line": 5,
-              "column": 69
+              "column": 71
             }
           }
         },
         {
-          "value": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/BirdAudio.ts",
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/BirdAudio.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -450,12 +450,12 @@
             },
             "end": {
               "line": 6,
-              "column": 74
+              "column": 76
             }
           }
         },
         {
-          "value": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/GameCtrl.ts",
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/GameCtrl.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -464,12 +464,12 @@
             },
             "end": {
               "line": 7,
-              "column": 73
+              "column": 75
             }
           }
         },
         {
-          "value": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Ground.ts",
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Ground.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -478,12 +478,12 @@
             },
             "end": {
               "line": 8,
-              "column": 71
+              "column": 73
             }
           }
         },
         {
-          "value": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/PipePool.ts",
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/PipePool.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -492,12 +492,12 @@
             },
             "end": {
               "line": 9,
-              "column": 73
+              "column": 75
             }
           }
         },
         {
-          "value": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Pipes.ts",
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Pipes.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -506,12 +506,12 @@
             },
             "end": {
               "line": 10,
-              "column": 70
+              "column": 72
             }
           }
         },
         {
-          "value": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Results.ts",
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Results.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -520,7 +520,21 @@
             },
             "end": {
               "line": 11,
-              "column": 72
+              "column": 74
+            }
+          }
+        },
+        {
+          "value": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/StopResume.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 77
             }
           }
         }
@@ -537,49 +551,56 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Bird.ts"
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Bird.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/BirdAudio.ts"
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/BirdAudio.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/GameCtrl.ts"
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/GameCtrl.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Ground.ts"
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Ground.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/PipePool.ts"
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/PipePool.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Pipes.ts"
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Pipes.ts"
           },
           "messages": []
         },
         {
           "resolved": {
             "type": "module",
-            "url": "file:///Users/shivam/Desktop/JumpBird/assets/Scripts/Results.ts"
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Results.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/StopResume.ts"
           },
           "messages": []
         }
@@ -890,7 +911,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1732595784971,
+      "mTimestamp": 1732629530939,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1240,6 +1261,602 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Bird.ts": {
+      "mTimestamp": {
+        "mtime": 1732613447400.838,
+        "uuid": "c355d834-2aef-4c80-9ee6-1e0902d2137f"
+      },
+      "chunkId": "35c3f372f4199b268cc8f2fee37cc22ee91e2c16",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 85
+            },
+            "end": {
+              "line": 1,
+              "column": 89
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/BirdAudio.ts": {
+      "mTimestamp": {
+        "mtime": 1732543179338.6687,
+        "uuid": "5f7c2217-0c05-4e13-a645-4c63e256b27b"
+      },
+      "chunkId": "5a4346ca77421c2711ac3018bf201400869b1fbe",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 68
+            },
+            "end": {
+              "line": 1,
+              "column": 72
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/GameCtrl.ts": {
+      "mTimestamp": {
+        "mtime": 1732629991450.561,
+        "uuid": "3a4126c8-aa33-4be8-9278-850597539b41"
+      },
+      "chunkId": "c839f9d11d71e93eba8baacaac8019836de717a4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 159
+            },
+            "end": {
+              "line": 1,
+              "column": 163
+            }
+          }
+        },
+        {
+          "value": "./Ground",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        },
+        {
+          "value": "./Results",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 24
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./Bird",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 21
+            },
+            "end": {
+              "line": 4,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "./BirdAudio",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "./StopResume",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 27
+            },
+            "end": {
+              "line": 6,
+              "column": 41
+            }
+          }
+        },
+        {
+          "value": "./PipePool",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 25
+            },
+            "end": {
+              "line": 8,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Ground.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Results.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Bird.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/BirdAudio.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/StopResume.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/PipePool.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Ground.ts": {
+      "mTimestamp": {
+        "mtime": 1732607648655.1401,
+        "uuid": "fdaa91a9-7ffb-491d-8073-5ab775507318"
+      },
+      "chunkId": "6eafef30f4f469c7f4d12442f3d94400abc07a67",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 87
+            },
+            "end": {
+              "line": 1,
+              "column": 91
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Results.ts": {
+      "mTimestamp": {
+        "mtime": 1732630512487.8474,
+        "uuid": "cd286abd-598c-43f7-b9e1-94f2629371ac"
+      },
+      "chunkId": "4039173ccb66fbed7c15d2a7c0523b8177d1ffa7",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 57
+            },
+            "end": {
+              "line": 1,
+              "column": 61
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/PipePool.ts": {
+      "mTimestamp": {
+        "mtime": 1732539261578.932,
+        "uuid": "20fe83ba-e546-4d23-a695-8c00d52e4e85"
+      },
+      "chunkId": "dae2211b21f14728dbd2a84879835e6914dd6b28",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/Pipes.ts": {
+      "mTimestamp": {
+        "mtime": 1732607234142.6548,
+        "uuid": "e93a473e-a7af-42b3-aabf-5b35b05f4cf8"
+      },
+      "chunkId": "516e4c9bbb532593fab574fbe77418ddcdbc90fd",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 76
+            },
+            "end": {
+              "line": 1,
+              "column": 80
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/StopResume.ts": {
+      "mTimestamp": {
+        "mtime": 1732630065459.3977,
+        "uuid": "1c3ef9a5-fbf5-4f73-b385-88cf9d2d2ef0"
+      },
+      "chunkId": "b342d83ebf2547880f9e049581c7dc690d5181b6",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 94
+            },
+            "end": {
+              "line": 1,
+              "column": 98
+            }
+          }
+        },
+        {
+          "value": "./GameCtrl",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 37
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/shivam/Desktop/FlappyBird/assets/Scripts/GameCtrl.ts"
           },
           "messages": []
         }

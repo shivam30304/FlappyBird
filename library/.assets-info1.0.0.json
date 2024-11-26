@@ -224,6 +224,258 @@
     "/Users/shivam/Desktop/JumpBird/assets/Game Res/Audio/swoosh.wav": {
       "time": 1732542845255.178,
       "uuid": "5a3bb6af-bd23-428f-a3f0-ecedf5021988"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Animations": {
+      "time": 1732531111135.558,
+      "uuid": "c2677bc7-166e-42ad-8311-e8d6f9ade4d7"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res": {
+      "time": 1732602024312.8738,
+      "uuid": "c786448d-e2a6-41a0-96ad-47a0c71eddcd"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Prefabs": {
+      "time": 1732537195226.2014,
+      "uuid": "88f0348a-db1e-4253-a160-39091590895b"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scene": {
+      "time": 1732527957414.451,
+      "uuid": "feb1a76f-317c-4962-9a7b-dffc4c2c8420"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts": {
+      "time": 1732603249351.3665,
+      "uuid": "fd5e84e2-67d5-4897-86d3-0605d5b533c0"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio": {
+      "time": 1732542845256.5771,
+      "uuid": "bb66200a-5560-40c9-af23-6e17f84fdb8f"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/background": {
+      "time": 1732516625040.8882,
+      "uuid": "e8f55d7c-6cb2-4ae7-9946-b9e9442ca48c"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird": {
+      "time": 1732516772777.345,
+      "uuid": "40776de7-b7df-4bfd-b244-b8d600fada06"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/fonts": {
+      "time": 1732516735177.5762,
+      "uuid": "d1a45334-3e5d-4318-a90e-62674c991e11"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/ground": {
+      "time": 1732516652668.45,
+      "uuid": "dfac2588-781b-4b94-a12b-c59513306d4f"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pipes": {
+      "time": 1732516772777.345,
+      "uuid": "78b7da19-cf59-40ff-af3f-9e2244291630"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Bird.ts": {
+      "time": 1732613447400.838,
+      "uuid": "c355d834-2aef-4c80-9ee6-1e0902d2137f"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/BirdAudio.ts": {
+      "time": 1732543179338.6687,
+      "uuid": "5f7c2217-0c05-4e13-a645-4c63e256b27b"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/GameCtrl.ts": {
+      "time": 1732629991450.561,
+      "uuid": "3a4126c8-aa33-4be8-9278-850597539b41"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Ground.ts": {
+      "time": 1732607648655.1401,
+      "uuid": "fdaa91a9-7ffb-491d-8073-5ab775507318"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/PipePool.ts": {
+      "time": 1732539261578.932,
+      "uuid": "20fe83ba-e546-4d23-a695-8c00d52e4e85"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Pipes.ts": {
+      "time": 1732607234142.6548,
+      "uuid": "e93a473e-a7af-42b3-aabf-5b35b05f4cf8"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Results.ts": {
+      "time": 1732630512487.8474,
+      "uuid": "cd286abd-598c-43f7-b9e1-94f2629371ac"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Animations.meta": {
+      "time": 1732516390056.3345
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res.meta": {
+      "time": 1732515984668.3237
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Prefabs.meta": {
+      "time": 1732516300765.161
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scene.meta": {
+      "time": 1732516313946.6057
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts.meta": {
+      "time": 1732516378102.2712
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio.meta": {
+      "time": 1732542726204.8035
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/background.meta": {
+      "time": 1732516083796.665
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird.meta": {
+      "time": 1732516089670.5588
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/fonts.meta": {
+      "time": 1732516224122.6804
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/ground.meta": {
+      "time": 1732516258484.3445
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pipes.meta": {
+      "time": 1732516105652.2048
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Bird.ts.meta": {
+      "time": 1732529808118.924
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/BirdAudio.ts.meta": {
+      "time": 1732542492178.6504
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/GameCtrl.ts.meta": {
+      "time": 1732524731607.3682
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Ground.ts.meta": {
+      "time": 1732517997511.7476
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/PipePool.ts.meta": {
+      "time": 1732537753531.2175
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Pipes.ts.meta": {
+      "time": 1732535413570.4702
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/Results.ts.meta": {
+      "time": 1732527362709.8096
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Animations/BirdAnimation.anim": {
+      "time": 1732532355099.5017,
+      "uuid": "4ab4a420-48a9-4478-aebc-4e464c9f6ac7"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Prefabs/Pipe.prefab": {
+      "time": 1732614300361.6448,
+      "uuid": "a585df7b-913f-46c7-9781-f1163a1050a7"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scene/scene.scene": {
+      "time": 1732614197649.0444,
+      "uuid": "00fffd97-9931-48d5-99ee-a7f6141ca638"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/die.wav": {
+      "time": 1732542845254.6611,
+      "uuid": "013d0dca-45f0-4ef0-b95e-a3decbc61795"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/hit.wav": {
+      "time": 1732542845254.2856,
+      "uuid": "ca5b0fd4-f474-40ad-a07f-f2878a097ae9"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/point.wav": {
+      "time": 1732542845254.6763,
+      "uuid": "2875c0ff-bcb3-46a2-b840-984b6f97d824"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/swoosh.wav": {
+      "time": 1732542845255.178,
+      "uuid": "5a3bb6af-bd23-428f-a3f0-ecedf5021988"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/background/background-day.png": {
+      "time": 1732516625039.9705,
+      "uuid": "14e6e8c1-21f5-4f37-b815-e485ec28a602"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird/yellowbird-downflap.png": {
+      "time": 1732516672856.0493,
+      "uuid": "683624d1-892a-4205-b742-7693941052b7"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird/yellowbird-midflap.png": {
+      "time": 1732516672856.081,
+      "uuid": "4cab245d-1765-4da9-8334-95ceae6fe155"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird/yellowbird-upflap.png": {
+      "time": 1732516672856.1553,
+      "uuid": "6de29132-addf-41d6-829d-b195bfbe537c"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/fonts/FlappyBirdRegular-9Pq0.ttf": {
+      "time": 1732516735177.061,
+      "uuid": "90dc68aa-9f5e-4c41-bf3e-935ebc1bb5ae"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/ground/base.png": {
+      "time": 1732516652667.75,
+      "uuid": "ac7da54d-cd5a-4115-b75a-d80cf16e6b38"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pipes/pipe-green.png": {
+      "time": 1732516767506.287,
+      "uuid": "0d03ee1b-bfc6-4856-b28c-87715b9c148f"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scene/scene.scene.meta": {
+      "time": 1732526657050.4812
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Animations/BirdAnimation.anim.meta": {
+      "time": 1732531111137.8477
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Prefabs/Pipe.prefab.meta": {
+      "time": 1732537195227.9895
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/die.wav.meta": {
+      "time": 1732542845265.092
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/hit.wav.meta": {
+      "time": 1732542845261.7239
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/point.wav.meta": {
+      "time": 1732542845268.666
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/Audio/swoosh.wav.meta": {
+      "time": 1732542845272.598
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/fonts/FlappyBirdRegular-9Pq0.ttf.meta": {
+      "time": 1732516735179.2175
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/background/background-day.png.meta": {
+      "time": 1732516625061.8398
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird/yellowbird-downflap.png.meta": {
+      "time": 1732516672873.0706
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird/yellowbird-midflap.png.meta": {
+      "time": 1732516672865.4758
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/bird/yellowbird-upflap.png.meta": {
+      "time": 1732516672879.4834
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/ground/base.png.meta": {
+      "time": 1732516652675.595
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pipes/pipe-green.png.meta": {
+      "time": 1732516767521.9634
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume.meta": {
+      "time": 1732602024313.894
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume": {
+      "time": 1732602923568.3994,
+      "uuid": "56ec7d10-573d-4192-8f21-b43dd91caf28"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume/play-buttton.png.meta": {
+      "time": 1732602923586.3618
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume/pause.png.meta": {
+      "time": 1732602923598.0195
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume/play-buttton.png": {
+      "time": 1732602923567.265,
+      "uuid": "f8871538-b02a-4b63-a072-6d062de27fb7"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume/pause.png": {
+      "time": 1732602923567.2537,
+      "uuid": "f888c810-a4e5-42c1-8cc9-eac298524d4c"
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/StopResume.ts.meta": {
+      "time": 1732603249352.478
+    },
+    "/Users/shivam/Desktop/FlappyBird/assets/Scripts/StopResume.ts": {
+      "time": 1732630065459.3977,
+      "uuid": "1c3ef9a5-fbf5-4f73-b385-88cf9d2d2ef0"
     }
   },
   "missing": {
@@ -251,6 +503,16 @@
       "path": "/Users/shivam/Desktop/JumpBird/assets/Scene/GameCtrl.ts",
       "time": 1732527948146.448,
       "removeTime": 1732527957414
+    },
+    "45ec870a-4d08-4cb9-9877-3a0345efd74f": {
+      "path": "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume/pause.png",
+      "time": 1732602072295.8005,
+      "removeTime": 1732602896952
+    },
+    "91bf03f1-2607-4c3b-9655-b7f5020e2de3": {
+      "path": "/Users/shivam/Desktop/FlappyBird/assets/Game Res/pause_resume/resume.png",
+      "time": 1732602081132.0693,
+      "removeTime": 1732602905320
     }
   }
 }

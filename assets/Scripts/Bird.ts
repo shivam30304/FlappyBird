@@ -7,21 +7,22 @@ export class Bird extends Component {
         type:CCFloat,
         tooltip :'how high can they fly'
     })
-    public jumpHeight : number = 3;
+    public jumpHeight : number = 2.5;
 
     @property({
         type:CCFloat,
         tooltip:'how long can they fly'
     })
-    public jumpDuration: number = 3.5;
+    public jumpDuration: number = 3.0;
 
+
+    
     public birdAnimation : Animation;
     public birdLocation : Vec3;
     public hitSomething : boolean;
 
     protected onLoad(): void {
         this.resetBird();
-
         this.birdAnimation = this.getComponent(Animation);
     }
 
@@ -41,10 +42,8 @@ export class Bird extends Component {
                 }
             })
             .start();
-
         this.birdAnimation.play();
         this.birdAnimation.once(Animation.EventType.FINISHED, () => {
-
         });
     }
 }

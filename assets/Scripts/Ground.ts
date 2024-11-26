@@ -1,7 +1,6 @@
-import { _decorator, Component, director, Node , UITransform, Vec3, Canvas} from 'cc';
+import { _decorator, Component, director, Node , UITransform, Vec3, Canvas, find} from 'cc';
 const { ccclass, property } = _decorator;
 
-import { GameCtrl } from './GameCtrl';
 
 @ccclass('Ground')
 export class Ground extends Component {
@@ -32,9 +31,10 @@ export class Ground extends Component {
     public tempStartLocation2 = new Vec3;
     public tempStartLocation3 = new Vec3;
 
-    public gameCtrlSpeed = new GameCtrl;
+    public game;
     public gameSpeed : number;
     protected onLoad(): void {
+        this.game = find('GameCtrl').getComponent('GameCtrl');
         this.startUp();
     }
 
@@ -52,7 +52,7 @@ export class Ground extends Component {
         this.ground3.setPosition(this.tempStartLocation3);
     }
     update(deltaTime: number) {
-        this.gameSpeed = this.gameCtrlSpeed.speed;
+        this.gameSpeed = this.game.speed;
 
         this.tempStartLocation1 = this.ground1.position;
         this.tempStartLocation2 = this.ground2.position;

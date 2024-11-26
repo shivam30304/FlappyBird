@@ -1,14 +1,14 @@
-11-26-2024 10:06:24 - log: Load engine in /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine
-11-26-2024 10:06:24 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-11-26-2024 10:06:24 - log: Register native engine in /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/native
-11-26-2024 10:06:32 - error: [Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_skybox/default_skybox.hdr](d032ac98-05e1-4090-88bb-eb640dcb5fc1)}[Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_skybox/default_skybox.hdr](d032ac98-05e1-4090-88bb-eb640dcb5fc1)}  
+11-26-2024 19:28:50 - log: Load engine in /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine
+11-26-2024 19:28:50 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+11-26-2024 19:28:50 - log: Register native engine in /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+11-26-2024 19:28:57 - error: [Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_skybox/default_skybox.hdr](d032ac98-05e1-4090-88bb-eb640dcb5fc1)}[Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/default_skybox/default_skybox.hdr](d032ac98-05e1-4090-88bb-eb640dcb5fc1)}  
 at Object.error (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
 at ImportTask.importAsset (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/task.ccc:1:2959)  
 at runNextTicks (internal/process/task_queues.js:58:5)  
 at processImmediate (internal/timers.js:434:9)  
 at ImportTask.exec (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/task.ccc:1:731)  
 at ParallelQueue._generate (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:2752)
-11-26-2024 10:06:32 - error: [Assets] spawn Unknown system error -86Error: spawn Unknown system error -86
+11-26-2024 19:28:57 - error: [Assets] spawn Unknown system error -86Error: spawn Unknown system error -86
     at ChildProcess.spawn (internal/child_process.js:403:11)
     at spawn (child_process.js:562:9)
     at /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/utils/dist/progress.js:1:456
@@ -19,7 +19,7 @@ at ParallelQueue._generate (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/C
     at ImageImporter.import (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/image/index.ccc:1:1430)
     at /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/task.ccc:1:2808
     at new Promise (<anonymous>)
-11-26-2024 10:06:32 - error: [Assets] /bin/sh: /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar.unpacked/node_modules/@editor/fbx-gltf-conv/bin/darwin/FBX-glTF-conv: Bad CPU type in executable
+11-26-2024 19:28:57 - error: [Assets] /bin/sh: /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar.unpacked/node_modules/@editor/fbx-gltf-conv/bin/darwin/FBX-glTF-conv: Bad CPU type in executable
 [Assets] /bin/sh: /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar.unpacked/node_modules/@editor/fbx-gltf-conv/bin/darwin/FBX-glTF-conv: Bad CPU type in executable
   
 at Object.error (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)  
@@ -29,33 +29,22 @@ at ChildProcess.emit (events.js:315:20)
 at maybeClose (internal/child_process.js:1048:16)  
 at Socket.<anonymous> (internal/child_process.js:439:11)  
 at Socket.emit (events.js:315:20)
-11-26-2024 10:06:32 - error: [Assets] glTFConv does not support the current CPU architecture. Please try installing Rosetta. In the command-line tool, type `softwareupdate --install-rosetta`.[Assets] glTFConv does not support the current CPU architecture. Please try installing Rosetta. In the command-line tool, type `softwareupdate --install-rosetta`.  
+11-26-2024 19:28:57 - error: [Assets] glTFConv does not support the current CPU architecture. Please try installing Rosetta. In the command-line tool, type `softwareupdate --install-rosetta`.[Assets] glTFConv does not support the current CPU architecture. Please try installing Rosetta. In the command-line tool, type `softwareupdate --install-rosetta`.  
 at Object.error (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
 at ChildProcess.<anonymous> (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/utils/fbx-converter.ccc:1:2514)  
 at ChildProcess.emit (events.js:315:20)  
 at maybeClose (internal/child_process.js:1048:16)  
 at Socket.<anonymous> (internal/child_process.js:439:11)  
 at Socket.emit (events.js:315:20)
-11-26-2024 10:06:32 - error: [Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbx](1263d74c-8167-4928-91a6-4e2672411f47)}[Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbx](1263d74c-8167-4928-91a6-4e2672411f47)}  
+11-26-2024 19:28:57 - error: [Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbx](1263d74c-8167-4928-91a6-4e2672411f47)}[Assets] Importer exec failed: {asset[/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbx](1263d74c-8167-4928-91a6-4e2672411f47)}  
 at Object.error (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/builtin/asset-db/dist/worker/console.ccc:1:1429)  
 at ImportTask.importAsset (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/task.ccc:1:2959)  
 at ImportTask.exec (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/task.ccc:1:731)  
 at ParallelQueue._generate (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/asset-db/libs/asset-db.ccc:1:2752)
-11-26-2024 10:06:32 - error: [Assets] Failed to import /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbxError: Failed to import /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbx
+11-26-2024 19:28:57 - error: [Assets] Failed to import /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbxError: Failed to import /Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/primitives.fbx
     at FbxImporter.getGltfFilePath (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/fbx.ccc:1:1462)
     at createGlTfReader (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/gltf/reader-manager.ccc:1:857)
     at GlTfReaderManager.getOrCreate (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/gltf/reader-manager.ccc:1:534)
     at FbxImporter._importSubAssets (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/gltf.ccc:1:5695)
     at FbxImporter.import (/Applications/Cocos/Creator/3.8.1/CocosCreator.app/Contents/Resources/app.asar/modules/engine-extensions/extensions/engine-extends/dist/importer/importers/gltf.ccc:1:3231)
-11-26-2024 10:08:31 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:09:15 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:09:16 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:09:21 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:09:37 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:15:01 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:15:37 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:15:42 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:15:47 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:15:51 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:15:58 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
-11-26-2024 10:16:03 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
+11-26-2024 19:35:19 - warn: Please set the application in Preferences -> External Programs -> Default Script Editor to better open the script
